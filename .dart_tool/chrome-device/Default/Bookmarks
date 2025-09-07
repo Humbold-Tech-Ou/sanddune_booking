@@ -1,0 +1,498 @@
+{
+   "checksum": "e34036f8fcdfd4d888b10ea47f9d5a90",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "0",
+            "date_last_used": "13401230487120528",
+            "guid": "dcc59c5c-5165-413c-b4c9-8d7766f7ee1a",
+            "id": "28",
+            "name": "AnimeFLV",
+            "type": "url",
+            "url": "https://www3.animeflv.net/"
+         }, {
+            "date_added": "13303108652812671",
+            "date_last_used": "13401633763332799",
+            "guid": "f9f94f76-1c0d-4c9c-b429-b8c91b821250",
+            "id": "29",
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/"
+         }, {
+            "date_added": "13303319557453333",
+            "date_last_used": "13401630322352968",
+            "guid": "41ceb93d-2df4-4bd8-aa81-ded31f6b8217",
+            "id": "30",
+            "name": "Banco de Venezuela",
+            "type": "url",
+            "url": "https://www.bancodevenezuela.com/"
+         }, {
+            "date_added": "0",
+            "date_last_used": "13401631825618398",
+            "guid": "3e58b922-6167-4c79-be71-cc4068cf01dd",
+            "id": "31",
+            "name": "WhatsApp",
+            "type": "url",
+            "url": "https://web.whatsapp.com/"
+         }, {
+            "date_added": "13352075685748456",
+            "date_last_used": "13397861347339599",
+            "guid": "ff4d0413-4392-4670-a744-48f1dc8db83d",
+            "id": "32",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Django documentation | Django documentation | Django",
+            "type": "url",
+            "url": "https://docs.djangoproject.com/en/5.0/"
+         }, {
+            "date_added": "13352075745739464",
+            "date_last_used": "13398710765007065",
+            "guid": "10ed5f99-4580-4e51-afb4-adeae9c7b2ab",
+            "id": "33",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Jinja — Jinja Documentation (3.1.x)",
+            "type": "url",
+            "url": "https://jinja.palletsprojects.com/en/3.1.x/"
+         }, {
+            "date_added": "13352914917368291",
+            "date_last_used": "13395093793494532",
+            "guid": "6f80f62b-dc71-4bdd-b159-34cd4455f9b4",
+            "id": "34",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Get started with Bootstrap · Bootstrap v5.3",
+            "type": "url",
+            "url": "https://getbootstrap.com/docs/5.3/getting-started/introduction/"
+         }, {
+            "date_added": "13352075759444465",
+            "date_last_used": "13398738048574917",
+            "guid": "a76a2a46-9294-41cc-ace2-9d846f8ef2c2",
+            "id": "35",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "(6) Django, Curso de Django para Principiantes - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=T1intZyhXDU&list=PLL0TiOXBeDai29Uz7noMWJnjuHpYD1Sb4&index=1"
+         }, {
+            "date_added": "13353093542774587",
+            "date_last_used": "0",
+            "guid": "73c59ed9-033a-4dcf-a4be-036c6aa062b0",
+            "id": "36",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Semántica en HTML5, ¿Qué es y porqué te debe importar? | Shenan Sherwell",
+            "type": "url",
+            "url": "https://www.shenansherwell.com/es/desarrollo-web/semantica-html5/#:~:text=La%20sem%C3%A1ntica%20en%20el%20HTML,pueda%20rastrear%20de%20mejor%20manera."
+         }, {
+            "date_added": "13353729125250927",
+            "date_last_used": "0",
+            "guid": "446a9ef1-32ef-409b-9f45-4bc88365e34c",
+            "id": "37",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e (Novela Ligera en español)",
+            "type": "url",
+            "url": "https://www.animemaniaco.com/2017/07/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-novela-ligera-en-espanol.html"
+         }, {
+            "date_added": "13354552371214106",
+            "date_last_used": "0",
+            "guid": "c0a5af3b-3283-4527-a994-7c0828caba37",
+            "id": "38",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Jcw87/c2-sans-fight: Undertale Sans Fight Clone",
+            "type": "url",
+            "url": "https://github.com/Jcw87/c2-sans-fight/tree/master"
+         }, {
+            "date_added": "13355683852632078",
+            "date_last_used": "0",
+            "guid": "0bfeeebe-be8e-4408-ad59-ce89b205bd6b",
+            "id": "39",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Modo OSCURO (Dark Mode) para página web 🌙 con Bootstrap 5 & Javascript 🅹🆂 ☀️ FÁCIL y en 2 min! #css - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=R1V4CvKgNUI"
+         }, {
+            "date_added": "13356124096788143",
+            "date_last_used": "0",
+            "guid": "21f89d51-752a-4c0b-b618-4b2cac86457b",
+            "id": "40",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "django-session-timeout · PyPI",
+            "type": "url",
+            "url": "https://pypi.org/project/django-session-timeout/"
+         }, {
+            "date_added": "13357579287428481",
+            "date_last_used": "0",
+            "guid": "d6158aa9-c0eb-4fbd-b49c-087542eadacd",
+            "id": "41",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Installation — Django Q 1.3.6 documentation",
+            "type": "url",
+            "url": "https://django-q.readthedocs.io/en/latest/install.html"
+         }, {
+            "date_added": "13358641979724668",
+            "date_last_used": "0",
+            "guid": "a448eae4-a27b-4c70-a890-eabe2ee23e2f",
+            "id": "42",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Editor de fotos - PhotoKit.com",
+            "type": "url",
+            "url": "https://photokit.com/editor/?lang=es"
+         }, {
+            "date_added": "13361728265923401",
+            "date_last_used": "0",
+            "guid": "5587ec22-842e-4a68-8c19-ea51173e0fe8",
+            "id": "43",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "python - How to combine multiple QuerySets in Django? - Stack Overflow",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/431628/how-to-combine-multiple-querysets-in-django"
+         }, {
+            "date_added": "13365991077449730",
+            "date_last_used": "0",
+            "guid": "b9299eb7-2f47-4d4e-a2ca-6a97f6940f29",
+            "id": "44",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Does Python Anywhere support \"asgi\"? : Forums : PythonAnywhere",
+            "type": "url",
+            "url": "https://www.pythonanywhere.com/forums/topic/30868/"
+         }, {
+            "date_added": "13365991078793735",
+            "date_last_used": "0",
+            "guid": "b3fa1c7e-6738-4fde-9eb5-ff9835a19db1",
+            "id": "45",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Deploying ASGI sites on PythonAnywhere (beta) | PythonAnywhere help",
+            "type": "url",
+            "url": "https://help.pythonanywhere.com/pages/ASGICommandLine"
+         }, {
+            "date_added": "13367193309936477",
+            "date_last_used": "0",
+            "guid": "7690c6ae-810a-4d9f-b62a-a71f3ae9551e",
+            "id": "46",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Ideas de Proyectos Web para tu Portafolio de Programador - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=f0SUyYNpSt8"
+         }, {
+            "date_added": "13367774650968052",
+            "date_last_used": "0",
+            "guid": "97a433dd-18da-4592-b364-b3c22ce7f59f",
+            "id": "47",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Python Scrapy Tutorial - 3 - Robots.txt and Web Scraping Rules - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=w_jUkFFaobQ&list=PLhTjy8cBISEqkN-5Ku_kXG4QW33sxQo0t&index=4"
+         }, {
+            "date_added": "13368633190806220",
+            "date_last_used": "0",
+            "guid": "4188d21a-4f7b-4898-bab7-7a587d3433a8",
+            "id": "48",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Música Romántica - LETRAS.COM",
+            "type": "url",
+            "url": "https://www.letras.com/estilos/romantico/"
+         }, {
+            "date_added": "13368813848769077",
+            "date_last_used": "0",
+            "guid": "bb4479ef-0eb4-4e46-ad81-f4fca9559103",
+            "id": "49",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "TuZonaMarket - Pasta y Granos",
+            "type": "url",
+            "url": "https://tuzonamarket.com/lara/supermercado/alimentos/pasta-arroz-y-granos"
+         }, {
+            "date_added": "13370116940547247",
+            "date_last_used": "0",
+            "guid": "b6812995-99cc-4420-a5d9-2e61643ae856",
+            "id": "50",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Últimas películas publicadas - Cuevana",
+            "type": "url",
+            "url": "https://www.cuevana8.com/peliculas"
+         } ],
+         "date_added": "13401662853406903",
+         "date_last_used": "0",
+         "date_modified": "13370116940547247",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Barra de favoritos",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13371916488908203",
+            "date_last_used": "13400118672669969",
+            "guid": "255102b1-b6ba-4755-9507-665ba69d1fb8",
+            "id": "6",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Ven App",
+            "type": "url",
+            "url": "https://web.venapp.com/auth/login"
+         }, {
+            "date_added": "13372370503746952",
+            "date_last_used": "13400632107891846",
+            "guid": "b8d49a37-7754-4332-8699-fee9443b5c9d",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "..:: CORPOELEC ::..",
+            "type": "url",
+            "url": "https://pagos.corpoelec.com.ve/login"
+         }, {
+            "date_added": "13373160580257257",
+            "date_last_used": "13398796531888110",
+            "guid": "d41183b2-ede6-40a3-a1a2-1a3ec682a319",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Curso de Excel 2016, Excel 2019 . aulaClic. Totalmente gratis. Con vídeos y ejercicios resueltos",
+            "type": "url",
+            "url": "https://www.aulaclic.es/excel-2016/index.htm"
+         }, {
+            "date_added": "13374094300473584",
+            "date_last_used": "13400608678205840",
+            "guid": "e252f1dd-792b-4f55-b42f-f1fee1809eb4",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Wattpad Español - Donde las historias viven",
+            "type": "url",
+            "url": "https://www.wattpad.com/home?external=true"
+         }, {
+            "date_added": "13356545907448216",
+            "date_last_used": "13401630519809324",
+            "guid": "f8bc0337-499f-49c2-a7bb-51149c3597eb",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Login | SARGUS - Autana Tepuy | GasLara c.a Rif: G-20013100-4 | Barquisimeto 02-04-2024",
+            "type": "url",
+            "url": "https://www.gaslara.gob.ve/cliente/login/cerrar/"
+         }, {
+            "date_added": "13363313012212683",
+            "date_last_used": "13401297027146241",
+            "guid": "22c7c628-88e2-4289-b146-5f5bb458bdb1",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Descargar archivo | iLovePDF",
+            "type": "url",
+            "url": "https://www.ilovepdf.com/es/descarga/8lykryc9y2tzqkdygmyb9xh6v7flrkbkdqckxxAxbv8vnqAdA24dxq8dctwsyAkn8jA7060pyfpg682qbnctv4sdgyths8hAntAngctvxpcwAjym1c48lp3tvAwxbj5snbbyyd0m0gjzmc5mpmdkr2Afmgjbr92t1635f7qAntjv73kx5ff1/79o"
+         }, {
+            "date_added": "13374274096957144",
+            "date_last_used": "0",
+            "guid": "838086d4-f497-40a6-be43-451b20d275eb",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Youtube Video Downloader gratis - Yt5s",
+            "type": "url",
+            "url": "https://yt5s.biz/esxj100/"
+         }, {
+            "date_added": "13377368812513899",
+            "date_last_used": "13401204466132638",
+            "guid": "95604d04-897d-4cc9-9e6f-a2b011e7d051",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Home | ThunderNet",
+            "type": "url",
+            "url": "https://miportal.somosthunder.net/"
+         }, {
+            "date_added": "13383261220766230",
+            "date_last_used": "13396544963087173",
+            "guid": "57152dfa-752c-4abd-975c-c16e289096f1",
+            "id": "14",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Ofertas del Día",
+            "type": "url",
+            "url": "https://ve.telocomproenusa.com/ofertas?tracking=tlc-brands-2024&campaignid=21294736528&adgroupid=171503760161&keyword=telocomproenusa%20com&device=c&gad_source=1&gclid=CjwKCAiAtYy9BhBcEiwANWQQL_qqTJCwFsIU9Jy_8H4KbZQiWqjU4PzyzdEKR3gYvD0v9CcC2vJBQRoCWkMQAvD_BwE"
+         }, {
+            "date_added": "13384633452345863",
+            "date_last_used": "13401578778276996",
+            "guid": "cf6291d1-faa2-4c40-a46b-c22657cdfdb3",
+            "id": "15",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "BFC | Personas",
+            "type": "url",
+            "url": "https://www20.bfc.com.ve/"
+         }, {
+            "date_added": "13384926109355146",
+            "date_last_used": "13398785682839574",
+            "guid": "874d8cb4-e2a5-4789-914b-4b9370d1320d",
+            "id": "16",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Activar Windows 11 desde CMD - Informática Colectiva",
+            "type": "url",
+            "url": "https://informaticacolectiva.com/es_es/activar-windows-11-desde-cmd/"
+         }, {
+            "date_added": "13385004557667308",
+            "date_last_used": "0",
+            "guid": "1812037f-5614-4d0d-882e-36e6e771adbf",
+            "id": "17",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Cómo activar Windows con comandos desde el CMD",
+            "type": "url",
+            "url": "https://www.mundodeportivo.com/urbantecno/windows/activar-windows-como-hacerlo-a-traves-de-comandos-en-cmd"
+         }, {
+            "date_added": "13385008216815979",
+            "date_last_used": "0",
+            "guid": "29922264-65e9-4110-aa4b-287a593a8d87",
+            "id": "18",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "blizzpaste.com/Games/GT45VPC1.txt",
+            "type": "url",
+            "url": "https://blizzpaste.com/Games/GT45VPC1.txt"
+         }, {
+            "date_added": "13385167158998300",
+            "date_last_used": "13398967725263231",
+            "guid": "c2019c7b-c665-4b59-a23d-7f386fdf8a66",
+            "id": "19",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "MINAAMP",
+            "type": "url",
+            "url": "https://registroadultomayor.minaamp.gob.ve/form"
+         }, {
+            "date_added": "13385737847660240",
+            "date_last_used": "13392480647442770",
+            "guid": "8e126cee-c5e7-4c12-9d74-b35b5cd7b478",
+            "id": "20",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "PORTAL_SENIAT",
+            "type": "url",
+            "url": "https://declaraciones.seniat.gob.ve/portal/page/portal/PORTAL_SENIAT"
+         }, {
+            "date_added": "13392911147312946",
+            "date_last_used": "13398186451503454",
+            "guid": "d6b41bc8-5f2a-48b1-813e-634951b05d1e",
+            "id": "21",
+            "name": "SAIME - Servicio Administrativo de Identificación Migración y Extranjería",
+            "type": "url",
+            "url": "https://www.saime.gob.ve/"
+         }, {
+            "date_added": "13392911191208853",
+            "date_last_used": "13401578149454714",
+            "guid": "a9e94a4e-04d6-47df-b958-323acf0c8623",
+            "id": "22",
+            "name": "www.ivss.gov.ve - IVSS Instituto Venezolano de los Seguros Sociales | La Seguridad Social es tu Derecho",
+            "type": "url",
+            "url": "http://www.ivss.gov.ve/"
+         }, {
+            "date_added": "13393360736335772",
+            "date_last_used": "13396035339023768",
+            "guid": "57c9a9d3-fd3d-4a9f-bd40-80498adfcdcb",
+            "id": "23",
+            "name": "BNCNET - Login Personas Naturales",
+            "type": "url",
+            "url": "https://personas.bncenlinea.com/"
+         }, {
+            "date_added": "13397265890775227",
+            "date_last_used": "13398796972267099",
+            "guid": "b2f616d4-c5db-4993-9d0f-776a0f87b6a1",
+            "id": "24",
+            "name": "Blog Academia Unani",
+            "type": "url",
+            "url": "https://www.academiaunani.com/blog"
+         }, {
+            "date_added": "13398134571516150",
+            "date_last_used": "0",
+            "guid": "96987b15-c326-498d-a01d-612e5974322a",
+            "id": "25",
+            "name": "Tu primera app de Flutter",
+            "type": "url",
+            "url": "https://codelabs.developers.google.com/codelabs/flutter-codelab-first?hl=es-419#0"
+         }, {
+            "date_added": "13400024257927101",
+            "date_last_used": "13400172636541521",
+            "guid": "ef1eb5a2-28e9-4229-8702-6218d283c7cc",
+            "id": "26",
+            "name": "PAF – Portal de Autogestión de Factura",
+            "type": "url",
+            "url": "https://mifactura.cantv.com.ve/personaWeb/user_b2c/"
+         }, {
+            "date_added": "13401595742807082",
+            "date_last_used": "0",
+            "guid": "454d27b9-3b41-42ed-9abe-10866bb11fd1",
+            "id": "27",
+            "name": "(1) Servers | RunCloud",
+            "type": "url",
+            "url": "https://manage.runcloud.io/servers"
+         } ],
+         "date_added": "13401662853406903",
+         "date_last_used": "0",
+         "date_modified": "13401595742807082",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Otros favoritos",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13401662853406903",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Favoritos del dispositivo",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
