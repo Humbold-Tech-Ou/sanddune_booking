@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:sanddune_booking/presentation/widgets/new_desing/info_chip.dart';
 import 'package:sanddune_booking/presentation/widgets/new_desing/section_title.dart';
 import 'package:sanddune_booking/presentation/widgets/new_desing/services_wrap.dart';
+/*comentario random */
 
 class BookingCard extends StatelessWidget {
   @override
