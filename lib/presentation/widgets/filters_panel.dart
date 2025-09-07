@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:sanddune_booking/presentation/widgets/checkin_checkout.dart';
-import 'package:sanddune_booking/presentation/widgets/room_persons.dart';
 
 class FiltersPanel extends StatefulWidget {
   const FiltersPanel({super.key});
@@ -28,41 +26,6 @@ class _FiltersPanelState extends State<FiltersPanel> {
     return SingleChildScrollView(
       child: Column(
         children: [
-          // Bloque superior: Fechas + Personas + Submit
-          Container(
-            margin: const EdgeInsets.all(12),
-            padding: const EdgeInsets.all(12),
-            decoration: BoxDecoration(
-              border: Border.all(color: Colors.grey.shade300),
-              color: Theme.of(context).colorScheme.surfaceContainerHighest,
-              borderRadius: BorderRadius.circular(12),
-            ),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                const Text(
-                  'Búsqueda',
-                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
-                ),
-                Divider(
-                  color: Theme.of(context).colorScheme.primary,
-                  thickness: 2,
-                  endIndent: 160,
-                ),
-                CheckinCheckout(),
-                const SizedBox(height: 12),
-                RoomPersons(),
-                const SizedBox(height: 12),
-                SizedBox(
-                  width: double.infinity,
-                  child: FilledButton(
-                    onPressed: () {},
-                    child: const Text('Buscar'),
-                  ),
-                ),
-              ],
-            ),
-          ),
           // Amenities
           Container(
             margin: const EdgeInsets.all(12),
@@ -170,11 +133,11 @@ class _FiltersPanelState extends State<FiltersPanel> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Text(
-                      '${minPrice.toStringAsFixed(0)} Bs',
+                      '${minPrice.toStringAsFixed(0)} €',
                       style: const TextStyle(fontSize: 15),
                     ),
                     Text(
-                      '${maxPrice.toStringAsFixed(0)} Bs',
+                      '${maxPrice.toStringAsFixed(0)} €',
                       style: const TextStyle(fontSize: 15),
                     ),
                   ],

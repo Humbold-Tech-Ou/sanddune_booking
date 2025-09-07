@@ -1,0 +1,102 @@
+import 'package:flutter/material.dart';
+
+class HotelServicesSection extends StatelessWidget {
+  const HotelServicesSection({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final List<String> services = [
+      'Recepción 24 horas',
+      'WiFi gratis',
+      'Piscina al aire libre',
+      'Restaurante',
+      'Bar',
+      'Aire acondicionado',
+      'Calefacción',
+      'Habitaciones insonorizadas',
+      'Servicio de habitaciones',
+      'Limpieza diaria',
+      'Lavandería',
+      'Plancha',
+      'Caja fuerte',
+      'Ascensor',
+      'Parking',
+      'Alquiler de coches',
+      'Traslado al aeropuerto',
+      'Adaptado para personas de movilidad reducida',
+      'Idiomas: español, inglés, alemán, francés',
+      'Admite mascotas',
+      'Gimnasio',
+      'Spa y centro de bienestar',
+      'Masajes',
+      'Clases de fitness',
+      'Yoga',
+      'Senderismo',
+      'Ciclismo',
+      'Windsurf',
+      'Submarinismo',
+      'Pesca',
+      'Campo de golf (a menos de 3 km)',
+      'Pista de tenis',
+      'Billar',
+      'Ping pong',
+      'Zona de juegos infantil',
+      'Club infantil',
+      'Entretenimiento nocturno',
+      'Casino',
+      'Tiendas en el hotel',
+      'Peluquería/salón de belleza',
+      'Cajero automático',
+      'Cambio de moneda',
+      'Información turística',
+      'Guardaequipaje',
+      'Fax / fotocopiadora',
+      'Salas de reuniones / banquetes',
+      'Servicio de conserjería',
+      'Check-in/check-out exprés',
+      'Check-in/check-out privado',
+      'Detectores de humo',
+      'Extintores',
+      'Cámaras de seguridad en zonas comunes',
+      'Alarma de seguridad',
+      'Acceso con tarjeta',
+      'Llave de acceso',
+      'Personal de seguridad 24 horas',
+      'Botiquín',
+      'Servicio médico',
+      'Servicio de despertador',
+      'Servicio de planchado',
+      'Servicio de limpieza en seco',
+      'Servicio de lavandería',
+      'Servicio de niñera',
+      'Servicio de planchado de pantalones',
+      'Servicio de lustrado de zapatos',
+      'Servicio de entrega de comestibles',
+      'Servicio de compra de entradas',
+      'Servicio de traslado',
+      'Servicio de taxi',
+      'Servicio de autobús',
+      'Servicio de limusina',
+      'Servicio de chófer',
+      'Servicio de aparcacoches',
+      'Servicio de aparcacoches con asistencia',
+    ];
+
+    return Wrap(
+      spacing: 20,
+      runSpacing: 8,
+      children: services
+          .map(
+            (service) => Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                const Icon(Icons.check, size: 16, color: Colors.green),
+                const SizedBox(width: 6),
+                Text(service, style: Theme.of(context).textTheme.bodySmall),
+              ],
+            ),
+          )
+          .toList(),
+    );
+  }
+}

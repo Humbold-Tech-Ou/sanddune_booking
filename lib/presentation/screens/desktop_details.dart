@@ -69,6 +69,7 @@ class DesktopDetails extends StatelessWidget {
     final String currencySymbol = _resolveCurrencySymbol(currencyId);
 
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(title: Text(roomTypeName), centerTitle: false),
       body: Center(
         child: ConstrainedBox(
@@ -81,28 +82,30 @@ class DesktopDetails extends StatelessWidget {
                 // Columna izquierda: imagen + info
                 Expanded(
                   flex: 3,
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      _HeaderTitle(title: roomTypeName, badge: shortName),
-                      const SizedBox(height: 16),
-                      _PrimaryImage(imageName: primaryImage),
-                      const SizedBox(height: 16),
-                      if (shortDescription.isNotEmpty)
-                        Text(
-                          shortDescription,
-                          style: Theme.of(context).textTheme.titleMedium,
-                        ),
-                      const SizedBox(height: 12),
-                      if (description.isNotEmpty)
-                        Text(
-                          description,
-                          style: Theme.of(context).textTheme.bodyLarge,
-                        ),
-                      const SizedBox(height: 24),
-                      const SizedBox(height: 32),
-                      // Sección de capacidad y disponibilidad movida a la tarjeta de la derecha
-                    ],
+                  child: SingleChildScrollView(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        _HeaderTitle(title: roomTypeName, badge: shortName),
+                        const SizedBox(height: 16),
+                        _PrimaryImage(imageName: primaryImage),
+                        const SizedBox(height: 16),
+                        if (shortDescription.isNotEmpty)
+                          Text(
+                            shortDescription,
+                            style: Theme.of(context).textTheme.titleMedium,
+                          ),
+                        const SizedBox(height: 12),
+                        if (description.isNotEmpty)
+                          Text(
+                            description,
+                            style: Theme.of(context).textTheme.bodyLarge,
+                          ),
+                        const SizedBox(height: 24),
+                        const SizedBox(height: 32),
+                        // Sección de capacidad y disponibilidad movida a la tarjeta de la derecha
+                      ],
+                    ),
                   ),
                 ),
                 const SizedBox(width: 24),

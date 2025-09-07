@@ -107,6 +107,7 @@ class _MobileScreenState extends State<MobileScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         leading: Image.asset("assets/images/Max-power-10.png"),
         backgroundColor: const Color.fromARGB(255, 76, 77, 78),
@@ -144,8 +145,8 @@ class _MobileScreenState extends State<MobileScreen> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text('${minPrice.toStringAsFixed(0)} Bs'),
-                      Text('${maxPrice.toStringAsFixed(0)} Bs'),
+                      Text('${minPrice.toStringAsFixed(0)} €'),
+                      Text('${maxPrice.toStringAsFixed(0)} €'),
                     ],
                   ),
                   RangeSlider(
@@ -212,7 +213,7 @@ class _MobileScreenState extends State<MobileScreen> {
                   title: 'Habitaciones Generales',
                   description:
                       'Nuestras habitaciones generales ofrecen espacio y comodidad con múltiples dormitorios y una acogedora sala de estar. Disfrute de televisores de pantalla plana, Wi-Fi gratuito y una pequeña cocina.',
-                  price: '1 400,00 Bs',
+                  price: '1 400,00 €',
                   available: 6,
                   maxGuests: '4 Máximo de invitados:\n2 Adultos, 2 Niños',
                 ),

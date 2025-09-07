@@ -33,6 +33,7 @@ class MobileDetails extends StatelessWidget {
     };
 
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text(room['roomTypeName']?.toString() ?? 'Detalle'),
       ),
