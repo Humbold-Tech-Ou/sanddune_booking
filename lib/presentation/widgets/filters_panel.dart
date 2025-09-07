@@ -16,7 +16,6 @@ class _FiltersPanelState extends State<FiltersPanel> {
     'Energía de respaldo',
     'Refrigerador',
     'Restaurante',
-
   ];
   final selectedAmenities = <String>{};
 
@@ -35,19 +34,21 @@ class _FiltersPanelState extends State<FiltersPanel> {
             padding: const EdgeInsets.all(12),
             decoration: BoxDecoration(
               border: Border.all(color: Colors.grey.shade300),
-              color: Colors.white,
+              color: Theme.of(context).colorScheme.surfaceContainerHighest,
+              borderRadius: BorderRadius.circular(12),
             ),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 const Text(
                   'Búsqueda',
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 16,
-                  ),
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
                 ),
-                const Divider(color: Colors.blue, thickness: 2, endIndent: 160),
+                Divider(
+                  color: Theme.of(context).colorScheme.primary,
+                  thickness: 2,
+                  endIndent: 160,
+                ),
                 CheckinCheckout(),
                 const SizedBox(height: 12),
                 RoomPersons(),
@@ -68,7 +69,8 @@ class _FiltersPanelState extends State<FiltersPanel> {
             padding: const EdgeInsets.all(12),
             decoration: BoxDecoration(
               border: Border.all(color: Colors.grey.shade300),
-              color: Colors.white,
+              color: Theme.of(context).colorScheme.surfaceContainerHighest,
+              borderRadius: BorderRadius.circular(12),
             ),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -85,10 +87,10 @@ class _FiltersPanelState extends State<FiltersPanel> {
                     const Spacer(),
                     GestureDetector(
                       onTap: () => setState(() => selectedAmenities.clear()),
-                      child: const Text(
+                      child: Text(
                         'Clear Filter',
                         style: TextStyle(
-                          color: Colors.blue,
+                          color: Theme.of(context).colorScheme.primary,
                           fontSize: 13,
                           decoration: TextDecoration.underline,
                         ),
@@ -96,7 +98,11 @@ class _FiltersPanelState extends State<FiltersPanel> {
                     ),
                   ],
                 ),
-                const Divider(color: Colors.blue, thickness: 2, endIndent: 200),
+                Divider(
+                  color: Theme.of(context).colorScheme.primary,
+                  thickness: 2,
+                  endIndent: 200,
+                ),
                 ...amenities.map(
                   (amenity) => CheckboxListTile(
                     contentPadding: EdgeInsets.zero,
@@ -124,7 +130,8 @@ class _FiltersPanelState extends State<FiltersPanel> {
             padding: const EdgeInsets.all(12),
             decoration: BoxDecoration(
               border: Border.all(color: Colors.grey.shade300),
-              color: Colors.white,
+              color: Theme.of(context).colorScheme.surfaceContainerHighest,
+              borderRadius: BorderRadius.circular(12),
             ),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -143,10 +150,10 @@ class _FiltersPanelState extends State<FiltersPanel> {
                       onTap: () => setState(
                         () => priceRange = RangeValues(minPrice, maxPrice),
                       ),
-                      child: const Text(
+                      child: Text(
                         'Clear Filter',
                         style: TextStyle(
-                          color: Colors.blue,
+                          color: Theme.of(context).colorScheme.primary,
                           fontSize: 13,
                           decoration: TextDecoration.underline,
                         ),
@@ -154,7 +161,11 @@ class _FiltersPanelState extends State<FiltersPanel> {
                     ),
                   ],
                 ),
-                const Divider(color: Colors.blue, thickness: 2, endIndent: 120),
+                Divider(
+                  color: Theme.of(context).colorScheme.primary,
+                  thickness: 2,
+                  endIndent: 120,
+                ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
@@ -173,7 +184,7 @@ class _FiltersPanelState extends State<FiltersPanel> {
                   min: minPrice,
                   max: maxPrice,
                   divisions: ((maxPrice - minPrice) ~/ 100),
-                  activeColor: Colors.blue,
+                  activeColor: Theme.of(context).colorScheme.primary,
                   onChanged: (values) {
                     setState(() {
                       priceRange = values;

@@ -1,0 +1,10 @@
+^C:\USERS\BLACKSHERU\ONEDRIVE\DESKTOP\MIS_COSAS\FLUTTER\SAND_DUNE_BOOKING\BUILD\WINDOWS\X64\CMAKEFILES\F0DF4B0AE20417BB125921981F1D100A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/windows -BC:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/build/windows/x64/sanddune_booking.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

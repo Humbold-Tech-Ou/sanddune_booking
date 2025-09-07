@@ -30,7 +30,7 @@ class DesktopDetails extends StatelessWidget {
         "Beach",
         "Breakfast",
         "Internet",
-        "Pets friendly"
+        "Pets friendly",
       ],
       "images": null,
       "primaryImage": "09012025111246cover supperior.png",
@@ -43,14 +43,15 @@ class DesktopDetails extends StatelessWidget {
       "property": 99,
       "defaultAvailableRooms": 31,
       "guests": 2,
-      "kids": 1
+      "kids": 1,
     };
 
     final String roomTypeName = room['roomTypeName']?.toString() ?? 'Room';
     final String shortName = room['shortName']?.toString() ?? '';
     final String shortDescription = room['shortDescription']?.toString() ?? '';
     final String description = room['description']?.toString() ?? '';
-    final List<dynamic> servicesDyn = (room['services'] as List?) ?? <dynamic>[];
+    final List<dynamic> servicesDyn =
+        (room['services'] as List?) ?? <dynamic>[];
     final List<String> services = servicesDyn.map((e) => e.toString()).toList();
     final String? primaryImage = room['primaryImage'] as String?;
     final double price = (room['defaultPrice'] is num)
@@ -60,16 +61,15 @@ class DesktopDetails extends StatelessWidget {
     final int availableRooms = (room['defaultAvailableRooms'] is num)
         ? (room['defaultAvailableRooms'] as num).toInt()
         : 0;
-    final int guests = (room['guests'] is num) ? (room['guests'] as num).toInt() : 0;
+    final int guests = (room['guests'] is num)
+        ? (room['guests'] as num).toInt()
+        : 0;
     final int kids = (room['kids'] is num) ? (room['kids'] as num).toInt() : 0;
 
     final String currencySymbol = _resolveCurrencySymbol(currencyId);
 
     return Scaffold(
-      appBar: AppBar(
-        title: Text(roomTypeName),
-        centerTitle: false,
-      ),
+      appBar: AppBar(title: Text(roomTypeName), centerTitle: false),
       body: Center(
         child: ConstrainedBox(
           constraints: const BoxConstraints(maxWidth: 1200),
@@ -131,10 +131,7 @@ class _HeaderTitle extends StatelessWidget {
   final String title;
   final String badge;
 
-  const _HeaderTitle({
-    required this.title,
-    required this.badge,
-  });
+  const _HeaderTitle({required this.title, required this.badge});
 
   @override
   Widget build(BuildContext context) {
@@ -144,9 +141,9 @@ class _HeaderTitle extends StatelessWidget {
         Expanded(
           child: Text(
             title,
-            style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                  fontWeight: FontWeight.w700,
-                ),
+            style: Theme.of(
+              context,
+            ).textTheme.headlineMedium?.copyWith(fontWeight: FontWeight.w700),
           ),
         ),
         if (badge.isNotEmpty)
@@ -156,10 +153,7 @@ class _HeaderTitle extends StatelessWidget {
               color: Theme.of(context).colorScheme.primaryContainer,
               borderRadius: BorderRadius.circular(8),
             ),
-            child: Text(
-              badge,
-              style: Theme.of(context).textTheme.labelLarge,
-            ),
+            child: Text(badge, style: Theme.of(context).textTheme.labelLarge),
           ),
       ],
     );
@@ -169,9 +163,7 @@ class _HeaderTitle extends StatelessWidget {
 class _PrimaryImage extends StatelessWidget {
   final String? imageName;
 
-  const _PrimaryImage({
-    required this.imageName,
-  });
+  const _PrimaryImage({required this.imageName});
 
   @override
   Widget build(BuildContext context) {
@@ -180,7 +172,7 @@ class _PrimaryImage extends StatelessWidget {
     Widget placeholder = Container(
       height: 320,
       decoration: BoxDecoration(
-        color: Theme.of(context).colorScheme.surfaceVariant,
+        color: Theme.of(context).colorScheme.surfaceContainerHighest,
         borderRadius: radius,
       ),
       child: const Center(
@@ -194,7 +186,9 @@ class _PrimaryImage extends StatelessWidget {
 
     // Si tu backend expone un dominio/basePath, actualiza baseUrl aquí.
     const String baseUrl = '';
-    final String imageUrl = baseUrl.isEmpty ? imageName! : '$baseUrl/$imageName';
+    final String imageUrl = baseUrl.isEmpty
+        ? imageName!
+        : '$baseUrl/$imageName';
 
     return ClipRRect(
       borderRadius: radius,
@@ -210,7 +204,7 @@ class _PrimaryImage extends StatelessWidget {
             height: 320,
             alignment: Alignment.center,
             decoration: BoxDecoration(
-              color: Theme.of(context).colorScheme.surfaceVariant,
+              color: Theme.of(context).colorScheme.surfaceContainerHighest,
               borderRadius: radius,
             ),
             child: const CircularProgressIndicator(),
@@ -230,9 +224,9 @@ class _SectionTitle extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       text,
-      style: Theme.of(context).textTheme.titleLarge?.copyWith(
-            fontWeight: FontWeight.w700,
-          ),
+      style: Theme.of(
+        context,
+      ).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.w700),
     );
   }
 }
@@ -254,13 +248,7 @@ class _ServicesWrap extends StatelessWidget {
     return Wrap(
       spacing: 8,
       runSpacing: 8,
-      children: services
-          .map(
-            (service) => Chip(
-              label: Text(service),
-            ),
-          )
-          .toList(),
+      children: services.map((service) => Chip(label: Text(service))).toList(),
     );
   }
 }
@@ -282,9 +270,7 @@ class _InfoChip extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(12),
-        border: Border.all(
-          color: Theme.of(context).dividerColor,
-        ),
+        border: Border.all(color: Theme.of(context).dividerColor),
       ),
       child: Row(
         mainAxisSize: MainAxisSize.min,
@@ -327,10 +313,7 @@ class _BookingCard extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           mainAxisSize: MainAxisSize.min,
           children: [
-            Text(
-              'Desde',
-              style: Theme.of(context).textTheme.labelLarge,
-            ),
+            Text('Desde', style: Theme.of(context).textTheme.labelLarge),
             const SizedBox(height: 6),
             Row(
               crossAxisAlignment: CrossAxisAlignment.end,
@@ -338,8 +321,8 @@ class _BookingCard extends StatelessWidget {
                 Text(
                   '$currencySymbol${price.toStringAsFixed(2)}',
                   style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                        fontWeight: FontWeight.w800,
-                      ),
+                    fontWeight: FontWeight.w800,
+                  ),
                 ),
                 const SizedBox(width: 6),
                 Padding(
@@ -366,9 +349,21 @@ class _BookingCard extends StatelessWidget {
               spacing: 16,
               runSpacing: 12,
               children: [
-                _InfoChip(icon: Icons.person, label: 'Adultos', value: guests.toString()),
-                _InfoChip(icon: Icons.child_care, label: 'Niños', value: kids.toString()),
-                _InfoChip(icon: Icons.meeting_room, label: 'Disponibles', value: availableRooms.toString()),
+                _InfoChip(
+                  icon: Icons.person,
+                  label: 'Adultos',
+                  value: guests.toString(),
+                ),
+                _InfoChip(
+                  icon: Icons.child_care,
+                  label: 'Niños',
+                  value: kids.toString(),
+                ),
+                _InfoChip(
+                  icon: Icons.meeting_room,
+                  label: 'Disponibles',
+                  value: availableRooms.toString(),
+                ),
               ],
             ),
             const SizedBox(height: 24),
