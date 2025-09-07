@@ -127,11 +127,7 @@ class RoomCard extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => DesktopDetails(
-                            hotelName: 'Hotel Zulia',
-                            description:
-                                'Un hotel acogedor con vista al lago y excelente comida local.',
-                          ),
+                          builder: (context) => DesktopDetails(),
                         ),
                       );
                     },
