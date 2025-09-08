@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:sanddune_booking/presentation/widgets/checkin_checkout.dart';
-import 'package:sanddune_booking/presentation/widgets/new_desing/booking_card.dart';
 import 'package:sanddune_booking/presentation/widgets/new_desing/custom_review_section.dart';
 import 'package:sanddune_booking/presentation/widgets/new_desing/faq_section.dart';
 import 'package:sanddune_booking/presentation/widgets/new_desing/hotel_services_section.dart';
@@ -32,7 +31,7 @@ class _BookingPageState extends State<BookingPage> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 76, 77, 78),
+        backgroundColor: const Color(0xFF232323),
         elevation: 0,
         title: Row(
           children: [
@@ -78,7 +77,7 @@ class _BookingPageState extends State<BookingPage> {
                 children: [
                   // Search Bar Section
                   Container(
-                    color: Theme.of(context).colorScheme.primary,
+                    color: const Color(0xFFF5E9DA),
                     padding: const EdgeInsets.symmetric(
                       vertical: 16,
                       horizontal: 24,
@@ -198,31 +197,7 @@ class _BookingPageState extends State<BookingPage> {
                                     ],
                                   ),
                                 ),
-                                Column(
-                                  children: [
-                                    FilledButton.icon(
-                                      onPressed: () {},
-                                      icon: const Icon(Icons.favorite_border),
-                                      label: const Text('Guardar'),
-                                      style: FilledButton.styleFrom(
-                                        backgroundColor: Theme.of(
-                                          context,
-                                        ).colorScheme.primaryContainer,
-                                      ),
-                                    ),
-                                    const SizedBox(height: 8),
-                                    FilledButton.icon(
-                                      onPressed: () {},
-                                      icon: const Icon(Icons.share),
-                                      label: const Text('Compartir'),
-                                      style: FilledButton.styleFrom(
-                                        backgroundColor: Theme.of(
-                                          context,
-                                        ).colorScheme.primaryContainer,
-                                      ),
-                                    ),
-                                  ],
-                                ),
+                                // ...eliminado botón de compartir...
                               ],
                             ),
                             const SizedBox(height: 24),
@@ -266,9 +241,7 @@ class _BookingPageState extends State<BookingPage> {
                                       const SizedBox(height: 12),
                                       // Search Bar Section
                                       Container(
-                                        color: Theme.of(
-                                          context,
-                                        ).colorScheme.primary,
+                                        color: const Color(0xFFF5E9DA),
                                         padding: const EdgeInsets.symmetric(
                                           vertical: 16,
                                           horizontal: 24,
@@ -391,9 +364,6 @@ class _BookingPageState extends State<BookingPage> {
                                     ],
                                   ),
                                 ),
-                                const SizedBox(width: 24),
-                                // Booking Card (Right Side)
-                                Expanded(flex: 1, child: BookingCard()),
                               ],
                             ),
                           ],

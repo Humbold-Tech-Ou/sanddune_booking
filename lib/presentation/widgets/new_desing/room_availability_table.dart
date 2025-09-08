@@ -74,7 +74,7 @@ class RoomAvailabilityTableState extends State<RoomAvailabilityTable> {
     return Card(
       elevation: 1,
       margin: EdgeInsets.zero,
-      color: sandColor,
+      color: Theme.of(context).colorScheme.primaryContainer,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(8),
         side: BorderSide(color: sandBorder, width: 1),
