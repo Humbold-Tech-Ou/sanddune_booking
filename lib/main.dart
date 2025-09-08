@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:sanddune_booking/presentation/screens/homepage.dart';
 import 'package:sanddune_booking/presentation/screens/details_page.dart';
 import 'package:sanddune_booking/presentation/screens/booking_page.dart';
 

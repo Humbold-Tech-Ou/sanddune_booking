@@ -191,15 +191,10 @@ file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking
 file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/main.dart
 file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/screens/booking_page.dart
 file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/screens/desktop_details.dart
-file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/screens/desktop_screen.dart
 file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/screens/details_page.dart
-file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/screens/homepage.dart
 file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/screens/mobile_details.dart
-file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/screens/mobile_screen.dart
 file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/screens/responsive_layout.dart
 file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/widgets/checkin_checkout.dart
-file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/widgets/filters_panel.dart
-file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/widgets/new_desing/booking_card.dart
 file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/widgets/new_desing/custom_review_section.dart
 file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/widgets/new_desing/faq_section.dart
 file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/widgets/new_desing/hotel_services_section.dart
@@ -207,7 +202,6 @@ file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking
 file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/widgets/new_desing/image_gallery.dart
 file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/widgets/new_desing/important_information_section.dart
 file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/widgets/new_desing/individual_review.dart
-file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/widgets/new_desing/info_chip.dart
 file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/widgets/new_desing/payment_logo.dart
 file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/widgets/new_desing/payment_methods_section%206.dart
 file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/widgets/new_desing/popular_facilities_grid.dart
@@ -219,11 +213,9 @@ file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking
 file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/widgets/new_desing/room_availability_table.dart
 file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/widgets/new_desing/rule_item.dart
 file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/widgets/new_desing/section_title.dart
-file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/widgets/new_desing/services_wrap.dart
 file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/widgets/new_desing/surrounding_category.dart
 file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/widgets/new_desing/surroundings_section.dart
 file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/widgets/new_desing/things_to_consider_section.dart
-file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/widgets/room_card.dart
 file:///C:/Users/BlacKSherU/OneDrive/Desktop/mis_cosas/flutter/sand_dune_booking/lib/presentation/widgets/room_persons.dart
 file:///C:/flutter/bin/cache/flutter_web_sdk/kernel/dart2js_platform.dill
 file:///C:/flutter/packages/flutter/lib/animation.dart
