@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Material App',
+      title: 'sanddune',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(colorSchemeSeed: Color.fromRGBO(219, 203, 164, 1)),
       home: BookingPage(),
