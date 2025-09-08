@@ -76740,7 +76740,7 @@ return B.c.bF(r,s)},
 $S:480}
 A.IJ.prototype={
 G(a){var s=null,r=A.rS(s,s,A.ann(219,203,164,1),s)
-return new A.xt(new A.kW(s),A.a4(["/details",new A.a5i(),"/booking",new A.a5j()],t.N,t.Ab),"Material App",r,!1,s)}}
+return new A.xt(new A.kW(s),A.a4(["/details",new A.a5i(),"/booking",new A.a5j()],t.N,t.Ab),"sanddune",r,!1,s)}}
 A.a5i.prototype={
 $1(a){return B.CB},
 $S:481}
@@ -76766,7 +76766,7 @@ q=A.asa(B.Es,B.Rs,new A.adl(),A.anP(p==null?q.b:p,n,n,n,n))
 p=A.C(a).ax
 o=p.d
 r=A.ch(A.b([r,A.cc(A.b([q,B.bb,A.asa(B.Ey,B.Ru,new A.adm(),A.anP(o==null?p.b:o,n,n,n,n))],l),B.C,B.r,B.u)],l),B.U,B.r,B.u)
-q=A.as("El CA Sand Dune Hotel est\xe1 situado en Corralejo, a 200 metros de la playa de Corralejo y a 1,2 km del centro de Corralejo. Este hotel de 4 estrellas cuenta con piscina al aire libre, jard\xedn y terraza. El establecimiento ofrece habitaciones con aire acondicionado, WiFi gratis y ba\xf1o privado.",n,n,n,A.C(a).ok.y,n,n)
+q=A.as("El prueba a ver si se cambiaCA Sand Dune Hotel est\xe1 situado en Corralejo, a 200 metros de la playa de Corralejo y a 1,2 km del centro de Corralejo. Este hotel de 4 estrellas cuenta con piscina al aire libre, jard\xedn y terraza. El establecimiento ofrece habitaciones con aire acondicionado, WiFi gratis y ba\xf1o privado.",n,n,n,A.C(a).ok.y,n,n)
 p=A.as("Introduce tus fechas para ver precios y disponibilidad",n,n,n,A.C(a).ok.z,n,n)
 o=A.C(a)
 o=A.b([new A.zh(A.au6(A.cc(A.b([s,A.eI(new A.dC(B.eL,new A.bj(B.ic,A.cc(A.b([r,B.bU,new A.I_(n),B.bU,A.ch(A.b([A.hi(A.cc(A.b([q,B.bU,new A.ef("Servicios m\xe1s populares",n),B.bb,new A.Jk(n),B.ba,new A.ef("Disponibilidad",n),B.a6,p,B.dp,A.cl(n,A.eI(new A.dC(B.eL,A.ch(A.b([A.hi(new A.pB(n),2),B.bT,A.hi(new A.rm(n),2),B.bT,A.hi(A.Ho(!1,B.Rn,B.o,n,n,n,n,n,new A.adn(),n,A.anP(A.C(a).ax.b,n,B.D9,new A.c_(A.dk(4),B.m),n)),1)],l),B.C,B.r,B.u),n),n,n),B.o,o.ax.b,n,n,n,n,n,B.m5,n,n,n),B.a6,B.bU,new A.yU(n),B.ba,new A.ef("Comentarios de los clientes",n),B.a6,new A.Gq(n),B.ba,new A.ef("Preguntas de otras personas",n),B.a6,new A.Ju(n),B.ba,new A.ef("Alrededores del hotel",n),B.a6,new A.LH(n),B.ba,new A.ef("Restaurantes",n),B.a6,new A.Kb(n),B.ba,new A.ef("Servicios de CA Sand Dune Hotel",n),B.a6,new A.HP(n),B.ba,new A.ef("Normas de la casa",n),B.a6,new A.HQ(n),B.ba,new A.ef("Informaci\xf3n importante",n),B.a6,new A.I2(n),B.ba,new A.ef("M\xe9todos de pago aceptados",n),B.a6,new A.J9(n),B.ba,new A.ef("A tener en cuenta",n),B.a6,new A.LY(n),B.ba,new A.ef("Preguntas frecuentes sobre CA Sand Dune Hotel",n),B.a6,new A.Hm(n)],l),B.U,B.r,B.u),3),B.xZ,A.hi(new A.Fu(n),1)],l),B.U,B.r,B.u)],l),B.U,B.r,B.u),n),n),n,n)],l),B.U,B.r,B.u)),n)],l)
